@@ -1,16 +1,27 @@
-# flutter_animation_practice
+##Demo vedio
+<Video src = "https://raw.githubusercontent.com/Asrar-Ashraf/Flutter_Custom_Progress_bar/refs/heads/main/progessbar.webm"></video>
 
-A new Flutter project.
+# Flutter Custom Progress Bar
 
-## Getting Started
+A fully customizable **animated progress bar** built with Flutter using
+`CustomPainter`, gradients, and animation controllers.  
+This widget demonstrates how to design a smooth and modern circular progress bar
+with rotation and fading effects.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🎨 Built with `CustomPainter` for complete design flexibility  
+- 🌈 Gradient colors support  
+- 🔄 Smooth animation using `AnimationController`  
+- ⚡ Supports both incrementing and decrementing progress values (1 → 100 → 1)  
+- 🌀 Rotating arc effect for a loading indicator  
+- 💡 Easy to integrate in any Flutter project  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Asrar-Ashraf/Flutter_Custom_Progress_bar.git
