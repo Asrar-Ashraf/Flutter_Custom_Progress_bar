@@ -1,5 +1,7 @@
-##Demo vedio
-<Video src = "https://raw.githubusercontent.com/Asrar-Ashraf/Flutter_Custom_Progress_bar/refs/heads/main/progessbar.webm"></video>
+## 🎥 Demo Video
+
+<video src="https://raw.githubusercontent.com/Asrar-Ashraf/Flutter_Custom_Progress_bar/refs/heads/main/progessbar.webm" controls width="480"></video>
+
 
 # Flutter Custom Progress Bar
 
