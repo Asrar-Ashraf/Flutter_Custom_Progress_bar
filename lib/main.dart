@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage>
         leading: Icon(Icons.back_hand),
       ),
       backgroundColor: Colors.black,
-      body: Stack(children: [Progressbar(boxsize: 5)]),
+      body: Stack(children: [Progressbar(boxsize: 15)]),
     );
   }
 }
