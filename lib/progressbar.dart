@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animation_practice/customdesign.dart';
 
 class Progressbar extends StatefulWidget {
-  //final Size size;
-  const Progressbar({super.key});
+  final double boxsize;
+  const Progressbar({super.key, this.boxsize = 15});
 
   @override
   State<Progressbar> createState() => _ProgressbarState();
@@ -64,7 +64,7 @@ class _ProgressbarState extends State<Progressbar>
     return Stack(
       children: [
         Positioned(
-          left: 130,
+          left: 100,
           top: 100,
           child: Text(
             "Progress Bar",
@@ -77,7 +77,7 @@ class _ProgressbarState extends State<Progressbar>
           child: RotationTransition(
             turns: _animation,
             child: CustomPaint(
-              painter: Customdesign(),
+              painter: Customdesign(boxsize: widget.boxsize),
 
               size: Size(width * _animation.value, height * _animation.value),
             ),

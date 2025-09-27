@@ -22,13 +22,10 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage>
     with SingleTickerProviderStateMixin {
-  late AnimationController _controller;
-  late Animation<double> _animation;
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.sizeOf(context);
     final Size(:width, :height) = size;
-
     return Scaffold(
       appBar: AppBar(
         title: Text("Flutter Demo"),
@@ -36,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage>
         leading: Icon(Icons.back_hand),
       ),
       backgroundColor: Colors.black,
-      body: Stack(children: [Progressbar()]),
+      body: Stack(children: [Progressbar(boxsize: 5)]),
     );
   }
 }

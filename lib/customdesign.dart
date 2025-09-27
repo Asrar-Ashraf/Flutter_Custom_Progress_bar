@@ -3,6 +3,9 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 
 class Customdesign extends CustomPainter {
+  const Customdesign({this.boxsize = 15});
+  final double boxsize;
+
   @override
   void paint(Canvas canvas, Size size) {
     Random random = Random();
@@ -25,7 +28,7 @@ class Customdesign extends CustomPainter {
     canvas.translate(width / 2, height / 2);
     for (var i = 0; i < 50; i++) {
       if (i % 5 == 0) {
-        canvas.drawCircle(Offset(0, -radius), 15, paint);
+        canvas.drawCircle(Offset(0, -radius), boxsize, paint);
       }
       canvas.rotate(rotate);
     }
